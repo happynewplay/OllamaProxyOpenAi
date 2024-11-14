@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  ai:
+    openai:
+      base-url: http://xxxxxxx
+      api-key: xxxxxxxxxx
+      chat:
+        options:
+          model: gemini-1.5-flash
+          temperature: 0.3
+          max-tokens: 128000
+          top-p: 1
+          frequency-penalty: 0
+          presence-penalty: 0
